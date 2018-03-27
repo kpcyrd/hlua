@@ -1,8 +1,12 @@
-## hlua
+## hlua-badtouch
+
+Important: This is a fork of [hlua](https://github.com/tomaka/hlua) by @tomaka. Since it is an essential part of [badtouch](https://github.com/kpcyrd/badtouch) it was forked to allow better control and release more frequently when needed. Please keep in mind that this fork is going to disappear when badtouch has stabilized and the required patches have been released upstream. Consider using upstream instead.
+
+---
 
 This library is a high-level binding for Lua 5.2. You don't have access to the Lua stack, all you can do is read/write variables (including callbacks) and execute Lua code.
 
-[![Build Status](https://travis-ci.org/tomaka/hlua.svg?branch=master)](https://travis-ci.org/tomaka/hlua)
+[![Build Status](https://travis-ci.org/kpcyrd/hlua.svg?branch=master)](https://travis-ci.org/kpcyrd/hlua)
 
 ### How to install it?
 
